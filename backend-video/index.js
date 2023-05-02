@@ -4,9 +4,9 @@ const fs = require('fs')
 const app = express()
 
 const videoFileMap={
-    'cdn':'videos/cdn.mp4',
-    'generate-pass':'videos/generate-pass.mp4',
-    'get-post':'videos/get-post.mp4',
+    'italy1':'videos/video1.webm',
+    'buns2':'videos/video2.webm',
+    'ainsley3':'videos/video3.webm',
 }
 
 app.get('/videos/:filename', (req, res)=>{
