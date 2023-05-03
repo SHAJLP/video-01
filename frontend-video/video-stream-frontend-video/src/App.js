@@ -8,19 +8,20 @@ function App() {
 
   const [videoId, setVideoId] = useState(null)
 
-  function playvideo(e, videoId){
+  function playVideo(e, videoId){
     e.preventDefault()
     setVideoId(videoId)
   }
+
   return (
     <div className="App">
-      {videoId && <videoPlayer videoId={videoId}></videoPlayer>} <br/>
-      <button onClick={(e)={playVideo(e,'video1.webm')}}> Play Video 1</button>
-      <button onClick={(e)={playVideo(e,'video2.webm')}}> Play Video 2</button>
-      <button onClick={(e)={playVideo(e,'video3.webm')}}> Play Video 3</button>
-      </div>
+      {videoId && <VideoPlayer videoId={videoId}></VideoPlayer>} <br/>
+      <button onClick={(e) => playVideo(e,'italy')}> Play Video 1</button>
+      <button onClick={(e) => playVideo(e,'buns2')}> Play Video 2</button>
+      <button onClick={(e) => playVideo(e,'ainsley3')}> Play Video 3</button>
+    </div>
   );
 };
-      
 
 export default App;
+
