@@ -18,8 +18,7 @@ ________________________________________________________________________________
 
 ## License
 _______________________________________________________________________________________
-(http://img.shields.io/badge/license-MIT-blue.svg)
-
+This project is licensed under MIT ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Walkthrough video link
 _______________________________________________________________________________________
